@@ -8,3 +8,6 @@
 * Fast learner
 * Diligent
 * Ambitious
+## Languages
+* Russian: Native
+* English: Basic
