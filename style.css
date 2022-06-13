@@ -1,0 +1,134 @@
+
+* {
+  box-sizing: border-box;
+}
+
+.footer {
+  padding: 20px;
+  background-color: rgb(0, 132, 255);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', serif;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #080808;
+  background-color: #eee2e2;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  font-size: 20px;
+  transition: .3s;
+}
+
+.section-item a {
+  color: #070707;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+.section-item a:hover {
+  color: #050505;
+}
+
+.section {
+  width: 50%;
+}
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
+
+.section-title {
+  margin-bottom: 20px;
+  font-size: 25px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #080808;
+  text-align: center;
+}
+
+.section-profile {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 50px 30px 35px;
+  border-bottom: 15px solid #0c0c0c;
+}
+
+.section-profile-logo {
+  width: 230px;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 20%;
+    box-shadow: 0 1px 4px rgba(43, 224, 7, 0.6);
+    filter: grayscale(0.1) brightness(1.1);
+    transition: .3s;
+}
+
+.section-profile-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+main {
+  display: block;
+}
+
+.container-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.header {
+  background-color: rgb(0, 132, 255);
+}
+
+.container {
+  background-color: rgb(0, 132, 255);
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  color: #050505;
+}
+
+.rssap {
+  width: 100px;
+  height: 45px;
+  background-image: url(./assets/svg/rs_school_js.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
